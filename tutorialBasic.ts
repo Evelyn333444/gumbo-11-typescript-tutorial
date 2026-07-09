@@ -16,7 +16,8 @@ let xArray: any[] = [1, true, "Hello"];
 
 
 //To put this all in practice:
-const concatenateValues = (a: string, b: string) => {
+//Note: the ':string' is needed after the function to define the return type of the function. In this case, we are defining a function `concatenateValues` that takes two string parameters and returns a string.
+const concatenateValues = (a: string, b: string): string => {
     return a + b;
 };
 
